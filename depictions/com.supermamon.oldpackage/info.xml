@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<package>
+    <header>
+        <id>com.supermamon.oldpackage</id>
+        <name>Sakura Package</name>
+        <version>1.0</version>
+    </header>
+    
+    <compatibility>
+        <firmware>
+            <maxiOS>7.1.2</maxiOS>
+            <otherVersions>unsupported</otherVersions>
+        </firmware>
+    </compatibility>
+    
+    <dependencies>
+        <dependency>iOS 7.0 - 7.1.2</dependency>
+    </dependencies>
+    
+    <descriptionlist>
+        <description>This is an Sakura package it contains iOS 7 Tweaks.</description>
+        <description>Requires iOS 7.0 up to 7.1.2</description>
+    </descriptionlist>
+    
+    <screenshots>
+        <!-- Add screenshots here -->
+    </screenshots>
+    
+    <changelog>
+        <change>Initial release</change>
+    </changelog>
+    
+    <links>
+        <link href="https://github.com/yourusername">GitHub</link>
+    </links>
+</package>

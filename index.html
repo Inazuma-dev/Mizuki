@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sakura 🌸</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #000000; /* True black for OLED */
+            color: #ffffff; /* High contrast text */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .header-section img {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+        .header-section h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #ff69b4; /* Vibrant pink accent */
+        }
+
+        .card {
+            background-color: #121212; /* Dark gray for subtle contrast */
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            background-color: #1f1f1f; /* Slightly lighter gray for headers */
+            padding: 15px 20px;
+            border-bottom: none;
+            border-radius: 10px 10px 0 0 !important;
+            font-weight: bold;
+            color: #ff69b4; /* Vibrant pink accent */
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            padding: 8px 16px;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .page-header {
+            color: #ff69b4; /* Vibrant pink for headers */
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .social-links a {
+            margin: 5px;
+            padding: 8px 16px;
+            color: #ffffff;
+            background-color: #007bff;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .text-primary {
+            color: #ff69b4 !important; /* Vibrant pink */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-section">
+        <img src="CydiaIcon.png" alt="Sakura Icon">
+        <h1>Sakura 🌸</h1>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <p><span class="text-primary"><b>Sakura</span></b> is a Cydia repository For iOS 7.0 - 7.1.2.</p>
+            <a class="btn btn-sm btn-primary" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://inazuma-dev.github.io/Sakura/">Add to Cydia</a>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card-header">
+            Info about Package
+        </div>
+        <div class="card-body">
+            <p class="card-text">This is a repo with Freemium tweaks for iOS 7.0 up to 7.1.2</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header follow-me-header">
+            Follow Me
+        </div>
+        <div class="card-body">
+            <div class="social-links">
+                <a href="https://linktr.ee/yourusername" class="btn btn-outline-custom">
+                    <i class="fas fa-link"></i> Linktree
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
